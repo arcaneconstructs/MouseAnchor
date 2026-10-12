@@ -3,8 +3,9 @@
   "id": "mouse-anchor",
   "version": "${version}",
   "name": "Mouse Anchor",
-  "description": "Allows you to configure when your mouse cursor is reset to the center in GUIs",
+  "description": "Allows you to keep your mouse cursor position after closing a GUI",
   "contact": {
+    "homepage": "https://modrinth.com/project/mouseanchor",
     "issues": "https://github.com/arcaneconstructs/MouseAnchor/issues",
     "sources": "https://github.com/arcaneconstructs/MouseAnchor"
   },

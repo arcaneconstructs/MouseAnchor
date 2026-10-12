@@ -2,7 +2,7 @@ plugins {
     id("net.fabricmc.fabric-loom") version "1.18-SNAPSHOT"
 }
 
-version = "1.0.0.preview1"
+version = "1.0.0"
 
 repositories {
     maven("https://maven.terraformersmc.com")
