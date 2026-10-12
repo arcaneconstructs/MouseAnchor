@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "mouse-anchor",
+  "version": "${version}",
+  "name": "Mouse Anchor",
+  "description": "Allows you to configure when your mouse cursor is reset to the center in GUIs",
+  "contact": {
+    "issues": "https://github.com/arcaneconstructs/MouseAnchor/issues",
+    "sources": "https://github.com/arcaneconstructs/MouseAnchor"
+  },
+  "authors": [
+    {
+      "name": "arcane",
+      "contact": {
+        "homepage": "https://github.com/arcaneconstructs"
+      }
+    }
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.girlboss.mouseanchor.MouseAnchor"]
+  },
+  "mixins": ["mouse-anchor.mixins.json"],
+  "depends": {
+    "java": ">=25",
+    "minecraft": ">=${minecraft_version}",
+    "fabric-api": "*"
+  }
+}
