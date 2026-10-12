@@ -1,16 +1,22 @@
-import com.sun.imageio.plugins.jpeg.JPEG.vendor
-
 plugins { 
     id("net.fabricmc.fabric-loom") version "1.18-SNAPSHOT"
 }
 
 version = "1.0.0.preview1"
 
+repositories {
+    maven("https://maven.terraformersmc.com")
+}
+
 dependencies {
     minecraft("com.mojang:minecraft:${sc.current.project}")
     
     implementation("net.fabricmc:fabric-loader:0.19.5")
     implementation("net.fabricmc.fabric-api:fabric-api:${property("deps.fabric_api")}")
+    
+    if (hasProperty("deps.modmenu")) {
+        implementation("com.terraformersmc:modmenu:${property("deps.modmenu")}")
+    }
 }
 
 java {
