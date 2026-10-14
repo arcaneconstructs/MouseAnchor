@@ -1,6 +1,6 @@
 {
   "options.mouseanchor.keepcursorposition.title": "\u00a7oKeep Cursor Position\u00a7r",
-  "options.mouseanchor.keepcursorposition.tooltip": "How long the position of the mouse cursor is kept after closing a GUI.\n\n\u00a7oThis option was added by the mod Mouse Anchor.\u00a7r",
+  "options.mouseanchor.keepcursorposition.tooltip": "How long the position of the mouse cursor is kept after closing a GUI.\n\n\u00a7o* This option was added by the mod Mouse Anchor.\u00a7r",
   "options.mouseanchor.keepcursorposition.value.0": "Never",
   "options.mouseanchor.keepcursorposition.value.1": "1 second",
   "options.mouseanchor.keepcursorposition.value.2": "2 seconds",
